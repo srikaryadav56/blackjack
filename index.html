@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Black Jack</title>
+        <meta name="viewport" ) content="width=device-width,intial-scale=1">
+        <style>
+           h1{
+            color: goldenrod;
+            font-size: 2.5rem;
+           }
+
+           p{
+            font-weight: bold;
+            font-size: large;
+            color: white;
+            font-style: italic ;
+           }
+
+           body{
+            padding: 20px;
+            text-align: center;
+            background: rgb(31, 92, 31);
+           }
+
+           button{
+            font-weight: bold;
+            background: goldenrod;
+            padding: 0 26px;
+            height: 2.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            border-style: solid;
+            border-color: black;
+        
+           }
+
+           div{
+            display: grid;
+            justify-content: center;
+            row-gap: 2.5px;
+           }
+
+           button:hover{
+            opacity: 0.7;
+            transition: 0.2s;
+           }
+
+           button:active{
+            opacity: 0.5;
+            transition: 0.2s;
+           }
+
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Blackjack</h1>
+        <p id="message">Want to play a round?</p>
+        <p id="cards">Cards:</p>
+        <p id="sum">Sum:</p>
+        <div>
+           <button onclick="startgame()">Start Game!</button>
+           <button onclick="newcard()">New card</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -40,6 +40,7 @@ function rendergame(){
 
 function startgame(){
     isalive = true
+    hasblackjack= false
     let firstcard = randomnumber()
     let secondcard = randomnumber()
     cardlist = [firstcard,secondcard]
